@@ -1,3 +1,19 @@
+.page-wrapper{
+    position: relative;
+}
+.explanation{
+    width: 60%;
+    border-right: #1f295c;
+    padding-right: 2%;
+}
+
+#design-selection{
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
 .main footer{
     margin: 4%;
 }
@@ -7,6 +23,7 @@
     padding: 0.5em;
     display: inline-block
 }
+
 
 aside ul{
     list-style-type: none;
@@ -45,9 +62,10 @@ margin-left: 1em;
 margin-right: 1em;
 }
 
+
 html {
     background-color: #1e1e1e;
-    color:#e0e0e0;
+    color:#ffffff;
     font-size: 25;
     font-family: sans-serif;
 }
