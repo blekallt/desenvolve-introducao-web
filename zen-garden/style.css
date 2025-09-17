@@ -41,7 +41,7 @@ aside ul li{
 }
 
 #zen-intro{
-    height: 550px;
+    height: 578px;
 }
 
 #desing-archives {
@@ -90,7 +90,8 @@ h2 {font-size: 1.2rem;}
 }
 .benefits {
     display: flex;
-    border-top:#e0e0e0 solid; 
+    border-top:#e0e0e0 solid 1px; 
+    border-bottom:#e0e0e0 solid 1px; 
 }
 .benefits p {
     flex-basis: 70%;
@@ -103,6 +104,7 @@ h2 {font-size: 1.2rem;}
 .participation {
     display: flex;
     flex-wrap: wrap;
+    border-top:#e0e0e0 solid 1px; 
 }
 .participation h3, .participation p {
     flex-basis: 50%;
@@ -110,3 +112,21 @@ h2 {font-size: 1.2rem;}
 .participation h3 {
     align-self: center;
 }
+a {
+    color: rgb(255, 23, 100);
+}
+a:hover {
+    color: rgba(255, 23, 100, 0.274);
+}
+.main p:first-of-type::first-letter {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+}
+.designselection li {
+    border-top:#ffffff solid 1px; 
+}
+.designselection li:last-of-type{
+    border-bottom: #ff0000 solid 1px; 
+    padding-bottom: 5px;
+};
