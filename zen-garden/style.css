@@ -127,6 +127,44 @@ a:hover {
     border-top:#ffffff solid 1px; 
 }
 .designselection li:last-of-type{
-    border-bottom: #ff0000 solid 1px; 
+    border-bottom: #ffffff solid 1px; 
     padding-bottom: 5px;
 };
+
+@media screen and (max-whidth: 768px) {
+    .designselection{
+        position:static;
+        width: 100%;
+    }
+    .explanation{
+        border-right: none;
+        width: 100%;
+    }
+    #zen-intro{
+        height: auto;
+    }
+    .participation {
+        flex-direction: column;
+    }
+        p {
+        text-indent: 0;
+    }
+}
+
+@media print {
+    html {
+        font-family: 'Times New Roman', Times, serif;
+    }
+        #zen-intro header {
+        background-color: #e0e0e0;
+        color: #1f295c;
+    }
+    .designselection {
+        position:static;
+        width: 100%;
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+}
